@@ -1,0 +1,32 @@
+body{
+    font-family: Arial;
+    line-height: 1.1;
+    background-color: rgb(234, 200, 202);
+    text-align: center;
+}
+
+header{
+    background-color: rgb(242, 213, 248);
+    padding: 1em;
+    text-align: left;
+}
+
+p {
+    font-size: larger;
+}
+
+.header h1{display:inline}
+
+.header a{
+    font-size: 32px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0.3em 0.5em;
+    border-radius: 10px;
+    background-color: rgba(255,255,255,0.6);
+    transition: background-color is linear;
+}
+
+.center{
+    vertical-align: middle;
+}
