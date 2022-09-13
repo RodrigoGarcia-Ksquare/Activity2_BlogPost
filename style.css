@@ -30,3 +30,64 @@ p {
 .center{
     vertical-align: middle;
 }
+
+.history{
+    background-color: chocolate;
+    padding: 0.3em 0.5em;
+}
+
+.activities{
+    background-color: lightsteelblue;
+    padding: 0.8em 2em;
+    border: 5px;
+    border-radius: 10%;
+}
+
+.food{
+    background-color: lightgreen;
+    padding: 0.3em 0.5em;
+}
+
+.facts{
+    background-color: darksalmon;
+}
+
+.no-style{
+    list-style: none;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+ul li.info{
+    list-style: decimal;
+    list-style-position: inside;
+}
+
+
+.split {
+    height: 40%;
+    width: 50%;
+    position: absolute;
+    z-index: 1;
+    top: auto;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .left {
+    left: 0;
+  }
+  
+
+  .right {
+    right: 0;
+  }
+  
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
